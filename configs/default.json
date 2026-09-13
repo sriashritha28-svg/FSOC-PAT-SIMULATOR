@@ -1,0 +1,34 @@
+{
+  "environment": {
+    "width": 2000,
+    "height": 2000,
+    "star_count": 200,
+    "distractor_count": 3
+  },
+  "camera": {
+    "viewport_w": 640,
+    "viewport_h": 480,
+    "fov": 30.0,
+    "pan_limit": 800.0,
+    "tilt_limit": 800.0,
+    "max_speed": 15.0
+  },
+  "beacon": {
+    "id": "BEACON-01",
+    "speed": 5.0,
+    "size": 6,
+    "intensity": 255,
+    "pulsing_freq": 0.05
+  },
+  "pid": {
+    "kp": 0.08,
+    "ki": 0.001,
+    "kd": 0.02
+  },
+  "disturbances": {
+    "noise_intensity": 0.0,
+    "vibration_intensity": 0.0,
+    "turbulence_intensity": 0.0,
+    "camera_motion_intensity": 0.0
+  }
+}
